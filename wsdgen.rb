@@ -13,7 +13,7 @@ else
   text = readlines.join
 end
 
-response = Net::HTTP.post_form(URI.parse('http://www.websequencediagrams.com/index.php'), 'style' => 'default', 'message' => text)
+response = Net::HTTP.post_form(URI.parse('http://www.websequencediagrams.com/index.php'), 'style' => 'vs2010', 'message' => text)
 
 if response.body =~ /img: "(.+)"/
   url = "http://www.websequencediagrams.com/#{ $1 }"
