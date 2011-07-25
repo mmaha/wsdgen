@@ -1,4 +1,4 @@
-#! /usr/bin/env ruby
+#!/usr/bin/env ruby
 require 'net/http'
 require 'uri'
 require 'open-uri'
@@ -31,7 +31,4 @@ if response.body =~ /img: "(.+)"/
     system("open #{ file }")
   end
 end
-
-
-
 
