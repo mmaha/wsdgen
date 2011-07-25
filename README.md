@@ -1,4 +1,5 @@
-Just some tools to deal with websequencediagrams.com
+Just some tools to deal with (websequencediagrams.com)
+~~~
 
 * EXAMPLE *
   # cat | ./wsdgen.rb 
@@ -7,5 +8,6 @@ Just some tools to deal with websequencediagrams.com
 
   Opening http://www.websequencediagrams.com/?img=mscXGRqeX
 
+~~~
 
 
